@@ -2,8 +2,8 @@ import PySimpleGUI as sg
 import subprocess
 
 def main():
-    #dados = subprocess.check_output(["netsh", "wlan", "show", "profiles"], encoding="cp860")
-    dados = "teste"
+    dados = subprocess.check_output(["netsh", "wlan", "show", "profiles"], encoding="cp860")
+    
     sg.theme("Lightgray1")
     menu = [
         [sg.Multiline(dados, size=(95,35))],
