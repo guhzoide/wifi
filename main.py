@@ -27,6 +27,7 @@ def main():
                 sg.popup_ok(wifi + " = " + senha)
                 win.close()
                 main()
+                
     elif e == 'sair':
         quest = sg.popup_yes_no("Deseja sair?")
         if quest == 'Yes':
