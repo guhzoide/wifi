@@ -19,7 +19,8 @@
 		This project was developed with the aim of helping in case of loss
 		your wifi network password
 
-		Remembering that if your machine does not have a wireless network card, it will not be possible to use the code
+		Remembering that if your machine does not have a wireless network card 
+		it will not be possible to use the code
 
 		For the software to work, just download, extract and run ;)
 		
