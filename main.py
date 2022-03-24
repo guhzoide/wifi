@@ -3,12 +3,12 @@ import subprocess
 
 def main():
     dados = subprocess.check_output(["netsh", "wlan", "show", "profiles"], encoding="cp860")
-    
+
     sg.theme("Lightgray1")
     menu = [
         [sg.Multiline(dados, size=(95,35))],
         [sg.Text('Digite o nome do wi-fi como esta a cima'), sg.Input(key='nome', size=(25,1))],
-        [sg.Button('Próximo')]
+        [sg.Button('Sair', size=(15,0)), sg.Button('Próximo', size=(15,0))]
     ]
 
     win = sg.Window("Menu", menu, element_justification='c')
@@ -27,8 +27,8 @@ def main():
                 sg.popup_ok(wifi + " = " + senha)
                 win.close()
                 main()
-                
-    elif e == 'sair':
+
+    elif e == 'Sair':
         quest = sg.popup_yes_no("Deseja sair?")
         if quest == 'Yes':
             win.close()
