@@ -8,7 +8,8 @@
 		Este projeto foi desenvolvido com o objetivo de ajudar em caso de perca
 		da senha de sua rede wi-fi  
 		
-		Lembrando que se caso sua maquina não tiver placa de rede wireless não sera possível usar o código
+		Lembrando que se caso sua maquina não tiver placa de rede wireless não sera possível 
+		usar o código
 
 		Para o funcionamento do software basta baixar, extrair e executar ;)
                                                                                                             
